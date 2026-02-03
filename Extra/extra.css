@@ -1,0 +1,49 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    background: white;
+}
+h1{
+    margin: 20px;
+    color: #6e6eb6;
+    font-size: 80px;
+    font-family: 'Courier New', Courier, monospace;
+    border: #070707 5px solid;
+}
+h2{
+    color: green;       
+    font-size: 40px;}
+h3{ 
+    color: orange;      
+    font-size: 30px;}       
+h4{
+    color: rgb(131, 183, 28);
+    font-size: 20px;}  
+h5{
+    color: purple;
+    font-size: 10px;}
+h6{
+    color: brown; 
+    font-size: 10px;} 
+
+    button{
+        color :aqua;
+        font-size: 35px;
+        color :rgb(3, 3, 14);
+        border-radius: 35px;
+        size: 10px;
+        background-color: rgb(215, 205, 205);
+        padding: 80px;
+        border: 3px solid black;
+        margin: 20px;
+    
+    }
+    button:hover{
+        background-color: rgb(100, 29, 151);
+        color: rgb(225, 14, 14);
+        cursor: pointer;
+        scale: 0.5;
+        margin: 20px;  
+        transition: all 0.5s ease-out;
+     }
