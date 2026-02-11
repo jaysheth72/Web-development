@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<head>
+    <title>Selector of CSS</title>
+    <style>
+        /* Element Selector */
+        h2 {
+            color: rgb(59, 59, 174);
+            background-color: rgb(218, 221, 225);
+        }
+        /* Class Selector */
+        .red {
+            color: rgb(223, 14, 14);
+            background-color: rgb(165, 190, 226);
+        }
+        /* ID Selector */
+        #id1 {
+            color: #ffee04;
+            background-color: rgb(182, 176, 231);
+        }
+
+        /* Child Selector */
+        div > p {
+            color: rgb(255, 0, 0);
+            background-color: rgb(161, 239, 161);
+        }
+
+        /* Descendent Selector */
+        div p {
+            color: rgb(255, 0, 0);
+            background-color: rgb(161, 239, 161);
+        }
+
+        /* Universal Selector */
+        * {
+            margin: 2%;
+        }
+        
+        /* Pseudo Selector */
+        a:hover {
+            color: rgb(255, 0, 0);
+            background-color: rgb(161, 239, 161);
+        }
+        a:visited {
+            color: rgb(229, 31, 31);
+            background-color: rgb(161, 239, 161);
+        }
+        a:link {
+            color: rgb(214, 254, 17);
+            background-color: rgb(5, 23, 5);
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Selector of CSS</h1>
+    <p>Selector is a pattern used to select the element you want to style <hr><hr>
+    
+    <h2>1. Class Selector</h2> 
+    <ol class="red">
+        <li>Element Selector</li>
+        <li>Class Selector</li>
+        <li>ID Selector</li>
+        <li>Child Selector</li>
+        <li>Descendent Selector</li>
+        <li>Universal Selector</li>
+        <li> Pseudo Selector</li>
+        
+    </ol> <hr><hr>
+
+    <h2>2. Element Selector</h2>
+    <p class="red">This is a paragraph of Element Selector</p> <hr><hr>
+
+    <h2>3. ID Selector</h2>
+    <p id="id1">This is a paragraph ID Selector</p> <hr><hr>
+
+    <h2>4. Child Selector</h2>
+    <div>
+        <p>This is a paragraph of Child Selector</p>  
+    </div><hr><hr>
+
+    <h2>5. Descendent Selector</h2>
+    <div>
+        <article>
+        <p>This is a paragraph of Descendent Selector</p>
+        </article>   
+    </div><hr><hr>
+
+    <h2>6. Pseudo Selector</h2>
+    <a href="https://google.com">Google</a>
+    <a href="https://youtube.com">YouTube</a>
+</body>
+</html>
